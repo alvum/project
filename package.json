@@ -11,5 +11,8 @@
 	"framer": {
 		"id": "59248bf5-41e2-4cbe-a061-2e144344fde9"
 	},
-	"author": "Merehan Suhiel"
+	"author": "Merehan Suhiel",
+	"dependencies": {
+		"@framer/framer.base": "^1.0.0"
+	}
 }

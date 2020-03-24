@@ -234,6 +234,74 @@
                   "left" : 30,
                   "right" : 30,
                   "top" : 93
+                },
+                "ZfQoffpN4" : {
+                  "centerAnchorX" : 0.48333333333333334,
+                  "left" : 81,
+                  "right" : null,
+                  "styledText" : {
+                    "__class" : "StyledTextDraft",
+                    "blocks" : [
+                      {
+                        "data" : {
+                          "emptyStyle" : [
+                            "FONT:__SystemDefault-400-normal__",
+                            "COLOR:rgb(0, 0, 0)",
+                            "SIZE:16",
+                            "LETTERSPACING:0",
+                            "LINEHEIGHT:1.2"
+                          ]
+                        },
+                        "depth" : 0,
+                        "entityRanges" : [
+
+                        ],
+                        "inlineStyleRanges" : [
+                          {
+                            "length" : 8,
+                            "offset" : 0,
+                            "style" : "FONT:__SystemDefault-400-normal__"
+                          },
+                          {
+                            "length" : 8,
+                            "offset" : 0,
+                            "style" : "COLOR:rgb(0, 0, 0)"
+                          },
+                          {
+                            "length" : 8,
+                            "offset" : 0,
+                            "style" : "SIZE:16"
+                          },
+                          {
+                            "length" : 8,
+                            "offset" : 0,
+                            "style" : "LETTERSPACING:0"
+                          },
+                          {
+                            "length" : 8,
+                            "offset" : 0,
+                            "style" : "LINEHEIGHT:1.2"
+                          }
+                        ],
+                        "key" : "8brfd",
+                        "text" : "Lenaaaaa",
+                        "type" : "unstyled"
+                      }
+                    ],
+                    "cached" : {
+                      "html" : "<div data-offset-key=\"8brfd-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"8brfd-0-0\" style=\"tab-size:4;font-family:&quot;system-ui&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, &quot;Segoe UI&quot;, &quot;Roboto&quot;, &quot;Oxygen&quot;, &quot;Ubuntu&quot;, &quot;Cantarell&quot;, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, &quot;sans-serif&quot;, serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Lenaaaaa<\/span><\/span><\/div>",
+                      "os" : "macos 10_15 framerx",
+                      "size" : {
+                        "height" : 19,
+                        "width" : 70
+                      },
+                      "width" : 0
+                    },
+                    "entityMap" : {
+
+                    }
+                  },
+                  "width" : 70
                 }
               }
             },
@@ -312,6 +380,74 @@
                   "left" : 30,
                   "right" : 30,
                   "top" : 162
+                },
+                "ZfQoffpN4" : {
+                  "centerAnchorX" : 0.5,
+                  "left" : null,
+                  "right" : null,
+                  "styledText" : {
+                    "__class" : "StyledTextDraft",
+                    "blocks" : [
+                      {
+                        "data" : {
+                          "emptyStyle" : [
+                            "FONT:__SystemDefault-400-normal__",
+                            "COLOR:rgb(0, 0, 0)",
+                            "SIZE:16",
+                            "LETTERSPACING:0",
+                            "LINEHEIGHT:1.2"
+                          ]
+                        },
+                        "depth" : 0,
+                        "entityRanges" : [
+
+                        ],
+                        "inlineStyleRanges" : [
+                          {
+                            "length" : 8,
+                            "offset" : 0,
+                            "style" : "FONT:__SystemDefault-400-normal__"
+                          },
+                          {
+                            "length" : 8,
+                            "offset" : 0,
+                            "style" : "COLOR:rgb(0, 0, 0)"
+                          },
+                          {
+                            "length" : 8,
+                            "offset" : 0,
+                            "style" : "SIZE:16"
+                          },
+                          {
+                            "length" : 8,
+                            "offset" : 0,
+                            "style" : "LETTERSPACING:0"
+                          },
+                          {
+                            "length" : 8,
+                            "offset" : 0,
+                            "style" : "LINEHEIGHT:1.2"
+                          }
+                        ],
+                        "key" : "8brfd",
+                        "text" : "your new",
+                        "type" : "unstyled"
+                      }
+                    ],
+                    "cached" : {
+                      "html" : "<div data-offset-key=\"8brfd-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"8brfd-0-0\" style=\"tab-size:4;font-family:&quot;system-ui&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, &quot;Segoe UI&quot;, &quot;Roboto&quot;, &quot;Oxygen&quot;, &quot;Ubuntu&quot;, &quot;Cantarell&quot;, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, &quot;sans-serif&quot;, serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">your new<\/span><\/span><\/div>",
+                      "os" : "macos 10_15 framerx",
+                      "size" : {
+                        "height" : 19,
+                        "width" : 68
+                      },
+                      "width" : 0
+                    },
+                    "entityMap" : {
+
+                    }
+                  },
+                  "width" : 68
                 }
               }
             },
@@ -393,7 +529,72 @@
                   "top" : 236
                 },
                 "ZfQoffpN4" : {
+                  "centerAnchorX" : 0.48333333333333334,
+                  "left" : 90,
+                  "right" : null,
+                  "styledText" : {
+                    "__class" : "StyledTextDraft",
+                    "blocks" : [
+                      {
+                        "data" : {
+                          "emptyStyle" : [
+                            "FONT:__SystemDefault-400-normal__",
+                            "COLOR:rgb(0, 0, 0)",
+                            "SIZE:16",
+                            "LETTERSPACING:0",
+                            "LINEHEIGHT:1.2"
+                          ]
+                        },
+                        "depth" : 0,
+                        "entityRanges" : [
 
+                        ],
+                        "inlineStyleRanges" : [
+                          {
+                            "length" : 6,
+                            "offset" : 0,
+                            "style" : "FONT:__SystemDefault-400-normal__"
+                          },
+                          {
+                            "length" : 6,
+                            "offset" : 0,
+                            "style" : "COLOR:rgb(0, 0, 0)"
+                          },
+                          {
+                            "length" : 6,
+                            "offset" : 0,
+                            "style" : "SIZE:16"
+                          },
+                          {
+                            "length" : 6,
+                            "offset" : 0,
+                            "style" : "LETTERSPACING:0"
+                          },
+                          {
+                            "length" : 6,
+                            "offset" : 0,
+                            "style" : "LINEHEIGHT:1.2"
+                          }
+                        ],
+                        "key" : "8brfd",
+                        "text" : "branch",
+                        "type" : "unstyled"
+                      }
+                    ],
+                    "cached" : {
+                      "html" : "<div data-offset-key=\"8brfd-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"8brfd-0-0\" style=\"tab-size:4;font-family:&quot;system-ui&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, &quot;Segoe UI&quot;, &quot;Roboto&quot;, &quot;Oxygen&quot;, &quot;Ubuntu&quot;, &quot;Cantarell&quot;, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, &quot;sans-serif&quot;, serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">branch<\/span><\/span><\/div>",
+                      "os" : "macos 10_15 framerx",
+                      "size" : {
+                        "height" : 19,
+                        "width" : 52
+                      },
+                      "width" : 0
+                    },
+                    "entityMap" : {
+
+                    }
+                  },
+                  "width" : 52
                 }
               }
             },
@@ -402,6 +603,144 @@
             "top" : 236,
             "visible" : true,
             "width" : 240,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : 141,
+            "centerAnchorX" : 0.48666666666666669,
+            "centerAnchorY" : 0.69202226345083484,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : "@framer\/framer.base\/.\/Controls\/Button.tsx_Button",
+            "codeComponentProps" : {
+              "disabled" : false,
+              "iconEndDecorator" : "ExternalLink",
+              "iconStartDecorator" : "ExternalLink",
+              "intent" : "primary",
+              "loading" : false,
+              "pattern" : "primary",
+              "resize" : "none",
+              "text" : "Hello world",
+              "theme" : "light",
+              "withEndDecorator" : false,
+              "withStartDecorator" : false
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 50,
+            "heightType" : 0,
+            "id" : "AJOwOF1H9",
+            "intrinsicHeight" : 50,
+            "intrinsicWidth" : 180,
+            "left" : 56,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "geGhEvNxz",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : null,
+            "visible" : true,
+            "width" : 180,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : -19,
+            "centerAnchorX" : 0.48666666666666669,
+            "centerAnchorY" : 0.84972170686456405,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : "@framer\/framer.base\/.\/Controls\/RadioGroup.tsx_RadioGroup",
+            "codeComponentProps" : {
+              "disabled" : false,
+              "resize" : "both",
+              "theme" : "light",
+              "value" : "Option A",
+              "values" : [
+                {
+                  "enabled" : true,
+                  "type" : "string",
+                  "value" : "Option A"
+                },
+                {
+                  "enabled" : true,
+                  "type" : "string",
+                  "value" : "Option B"
+                },
+                {
+                  "enabled" : true,
+                  "type" : "string",
+                  "value" : "Option C"
+                }
+              ]
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "YPRsxkmfi",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : 46,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "geGhEvNxz",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : 54,
+            "rotation" : 0,
+            "top" : null,
+            "visible" : true,
+            "width" : 200,
             "widthType" : 0
           }
         ],

@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("framer"));
+		module.exports = factory(require("framer"), require("react"));
 	else if(typeof define === 'function' && define.amd)
-		define(["framer"], factory);
+		define(["framer", "react"], factory);
 	else {
-		var a = typeof exports === 'object' ? factory(require("framer")) : factory(root["Framer"]);
+		var a = typeof exports === 'object' ? factory(require("framer"), require("react")) : factory(root["Framer"], root["React"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(window, function(__WEBPACK_EXTERNAL_MODULE_framer__) {
+})(window, function(__WEBPACK_EXTERNAL_MODULE_framer__, __WEBPACK_EXTERNAL_MODULE_react__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// install a JSONP callback for chunk loading
 /******/ 	function webpackJsonpCallback(data) {
@@ -274,6 +274,21 @@ const packages = {}
                     return packageInfo
                 }
 
+                packages["@framer/framer.base"] = () => {
+                    var packageInfo = {}
+                    var designJson
+                    try {
+                        packageInfo = __webpack_require__(/*! framer-package-loader!@framer/framer.base */ "framer-package-loader.js!./node_modules/@framer/framer.base/dist/index.js")
+                        designJson = __webpack_require__(/*! ./designDependencies.js */ "./designDependencies.js")["@framer/framer.base"]
+                    } catch (e) {
+                        console.log(e)
+                    }
+                    packageInfo.__framer__ = packageInfo.__framer__ || {}
+                    packageInfo.__framer__.packageJson = {"main":"dist/index.js","license":"MIT","devDependencies":{"@types/react":"^16.8"},"peerDependencies":{"framer":"^1.0","react":"^16.8"},"framer":{"id":"67d882cc-9fb2-4593-ba0d-d906b94d3d5d","displayName":"Framer Base Kit"},"name":"@framer/framer.base","version":"1.0.0","author":"Framer Team","dependencies":{"polished":"^3.4.1","react-feather":"^2.0.3","styled-components":"^4.3.2"}}
+                    packageInfo.__framer__.packageJson.design = designJson
+                    return packageInfo
+                }
+
 packageInfo.dependencies = packages
 
 exports.__framer__ = packageInfo
@@ -285,10 +300,10 @@ exports.__framer__ = packageInfo
 /*!**********************!*\
   !*** ./package.json ***!
   \**********************/
-/*! exports provided: main, license, devDependencies, peerDependencies, framer, author, default */
+/*! exports provided: main, license, devDependencies, peerDependencies, framer, author, dependencies, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"main\":\"dist/index.js\",\"license\":\"MIT\",\"devDependencies\":{\"@types/react\":\"^16.8\"},\"peerDependencies\":{\"framer\":\"^1.0\",\"react\":\"^16.8\"},\"framer\":{\"id\":\"59248bf5-41e2-4cbe-a061-2e144344fde9\"},\"author\":\"Merehan Suhiel\"}");
+module.exports = JSON.parse("{\"main\":\"dist/index.js\",\"license\":\"MIT\",\"devDependencies\":{\"@types/react\":\"^16.8\"},\"peerDependencies\":{\"framer\":\"^1.0\",\"react\":\"^16.8\"},\"framer\":{\"id\":\"59248bf5-41e2-4cbe-a061-2e144344fde9\"},\"author\":\"Merehan Suhiel\",\"dependencies\":{\"@framer/framer.base\":\"^1.0.0\"}}");
 
 /***/ }),
 
@@ -300,6 +315,17 @@ module.exports = JSON.parse("{\"main\":\"dist/index.js\",\"license\":\"MIT\",\"d
 /***/ (function(module, exports) {
 
 module.exports = __WEBPACK_EXTERNAL_MODULE_framer__;
+
+/***/ }),
+
+/***/ "react":
+/*!**************************************************************************************!*\
+  !*** external {"root":"React","commonjs2":"react","commonjs":"react","amd":"react"} ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_react__;
 
 /***/ })
 
