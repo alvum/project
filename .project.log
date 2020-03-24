@@ -42,3 +42,18 @@
 [2020-03-24 18:18:04.1830] - DEBUG - [Save session: 4] Completed waitUsingRecursiveRunLoop
 [2020-03-24 18:18:04.1850] - INFO - Marking changed: false
 [2020-03-24 18:18:04.1880] - DEBUG - [Save session: 4] Completed super.save
+[2020-03-24 18:26:47.5510] - INFO - Backing up to /Users/Merehan/Desktop/MUXD/BTS-Development/git/project.framerfx/.backups/2020-03-24 18.26.47.zip
+[2020-03-24 18:46:22.2110] - DEBUG - [Save session: 5] Started, operation: autosaveInPlaceOperation
+[2020-03-24 18:46:22.2110] - DEBUG - [Save session: 5] Before container.writeChanges
+[2020-03-24 18:46:22.2110] - DEBUG - [Save session: 5] Before waitUsingRecursiveRunLoop
+[2020-03-24 18:46:22.2160] - DEBUG - [Save session: 5] Completed container.writeChanges
+[2020-03-24 18:46:22.2160] - DEBUG - [Save session: 5] Completed waitUsingRecursiveRunLoop
+[2020-03-24 18:46:22.2220] - DEBUG - [Save session: 5] Completed super.save
+[2020-03-24 18:46:47.7470] - INFO - Backing up to /Users/Merehan/Desktop/MUXD/BTS-Development/git/project.framerfx/.backups/2020-03-24 18.46.47.zip
+[2020-03-24 18:46:57.1390] - DEBUG - [Save session: 6] Started, operation: saveOperation
+[2020-03-24 18:46:57.1390] - DEBUG - [Save session: 6] Before container.writeChanges
+[2020-03-24 18:46:57.1390] - DEBUG - [Save session: 6] Before waitUsingRecursiveRunLoop
+[2020-03-24 18:46:57.1470] - DEBUG - [Save session: 6] Completed container.writeChanges
+[2020-03-24 18:46:57.1470] - DEBUG - [Save session: 6] Completed waitUsingRecursiveRunLoop
+[2020-03-24 18:46:57.1490] - INFO - Marking changed: false
+[2020-03-24 18:46:57.1510] - DEBUG - [Save session: 6] Completed super.save

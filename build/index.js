@@ -1,10 +1,10 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory((function webpackLoadOptionalExternalModule() { try { return require("framer"); } catch(e) {} }()));
+		module.exports = factory(require("framer"));
 	else if(typeof define === 'function' && define.amd)
 		define(["framer"], factory);
 	else {
-		var a = typeof exports === 'object' ? factory((function webpackLoadOptionalExternalModule() { try { return require("framer"); } catch(e) {} }())) : factory(root["Framer"]);
+		var a = typeof exports === 'object' ? factory(require("framer")) : factory(root["Framer"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
 })(window, function(__WEBPACK_EXTERNAL_MODULE_framer__) {
@@ -177,17 +177,50 @@ return /******/ (function(modules) { // webpackBootstrap
   !*** ./code sync \.(t|j)s(x?)|\.css$ ***!
   \***************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	var e = new Error("Cannot find module '" + req + "'");
-	e.code = 'MODULE_NOT_FOUND';
-	throw e;
+var map = {
+	"./canvas.tsx": "./code/canvas.tsx"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
 }
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = "./code sync recursive \\.(t|j)s(x?)|\\.css$";
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./code sync recursive \\.(t|j)s(x?)|\\.css$";
+
+/***/ }),
+
+/***/ "./code/canvas.tsx":
+/*!*************************!*\
+  !*** ./code/canvas.tsx ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+// WARNING: this file is auto generated, any changes will be lost
+const framer_1 = __webpack_require__(/*! framer */ "framer");
+const canvas = framer_1.CanvasStore.shared({"children":[{"componentClass":"Frame","props":{"key":"yynhcAVN8","id":"id_yynhcAVN8","willChangeTransform":false,"_constraints":{"enabled":true,"intrinsicWidth":240,"intrinsicHeight":55},"_border":{},"visible":true,"style":{"rotate":0,"overflow":"visible","backgroundColor":"rgba(0, 153, 255, 0.5)"},"background":{"r":0,"g":153,"b":255,"a":0.5,"h":204,"s":1,"l":0.5,"initialValue":"rgba(0, 153, 255, 0.5)","roundA":0.5,"format":"rgb"}},"children":[{"componentClass":"Text","props":{"key":"ZfQoffpN4","id":"id_ZfQoffpN4","willChangeTransform":false,"_constraints":{"enabled":true,"autoSize":true},"width":36,"height":19,"left":"50%","top":"50%","center":true,"rawHTML":"<div data-offset-key=\"8brfd-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"8brfd-0-0\" style=\"tab-size:4;font-family:&quot;system-ui&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, &quot;Segoe UI&quot;, &quot;Roboto&quot;, &quot;Oxygen&quot;, &quot;Ubuntu&quot;, &quot;Cantarell&quot;, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, &quot;sans-serif&quot;, serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">hello</span></span></div>","fonts":["__SystemDefault-400-normal__"],"opacity":1,"rotation":0,"visible":true,"autoSize":true,"calculatedSize":{"width":36,"height":19},"isEditable":false},"name":null}],"name":null}]});
+exports.Component = framer_1.createDesignComponent(canvas, "id_yynhcAVN8", {}, 240, 55);
+exports.__info__ = [];
+
 
 /***/ }),
 
@@ -266,7 +299,6 @@ module.exports = JSON.parse("{\"main\":\"dist/index.js\",\"license\":\"MIT\",\"d
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-if(typeof __WEBPACK_EXTERNAL_MODULE_framer__ === 'undefined') {var e = new Error("Cannot find module 'undefined'"); e.code = 'MODULE_NOT_FOUND'; throw e;}
 module.exports = __WEBPACK_EXTERNAL_MODULE_framer__;
 
 /***/ })
