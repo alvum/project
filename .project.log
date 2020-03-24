@@ -17,3 +17,28 @@
 [2020-03-24 17:37:15.8770] - INFO - Marking changed: false
 [2020-03-24 17:37:15.8830] - INFO - Marking changed: false
 [2020-03-24 17:46:38.5710] - INFO - Backing up to /Users/Merehan/Desktop/MUXD/BTS-Development/git/project.framerfx/.backups/2020-03-24 17.46.38.zip
+[2020-03-24 18:17:33.3770] - DEBUG - [Save session: 1] Started, operation: autosaveInPlaceOperation
+[2020-03-24 18:17:33.3770] - DEBUG - [Save session: 1] Before container.writeChanges
+[2020-03-24 18:17:33.3770] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2020-03-24 18:17:33.3910] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2020-03-24 18:17:33.3910] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2020-03-24 18:17:33.3960] - DEBUG - [Save session: 1] Completed super.save
+[2020-03-24 18:17:33.3970] - DEBUG - [Save session: 2] Started, operation: autosaveInPlaceOperation
+[2020-03-24 18:17:33.3970] - DEBUG - [Save session: 2] Before container.writeChanges
+[2020-03-24 18:17:33.3970] - DEBUG - [Save session: 2] Before waitUsingRecursiveRunLoop
+[2020-03-24 18:17:33.4060] - DEBUG - [Save session: 2] Completed container.writeChanges
+[2020-03-24 18:17:33.4060] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
+[2020-03-24 18:17:33.9470] - DEBUG - [Save session: 2] Completed super.save
+[2020-03-24 18:17:34.4910] - DEBUG - [Save session: 3] Started, operation: autosaveInPlaceOperation
+[2020-03-24 18:17:34.4910] - DEBUG - [Save session: 3] Before container.writeChanges
+[2020-03-24 18:17:34.4910] - DEBUG - [Save session: 3] Before waitUsingRecursiveRunLoop
+[2020-03-24 18:17:34.4970] - DEBUG - [Save session: 3] Completed container.writeChanges
+[2020-03-24 18:17:34.4980] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
+[2020-03-24 18:17:34.5040] - DEBUG - [Save session: 3] Completed super.save
+[2020-03-24 18:18:04.1760] - DEBUG - [Save session: 4] Started, operation: saveOperation
+[2020-03-24 18:18:04.1760] - DEBUG - [Save session: 4] Before container.writeChanges
+[2020-03-24 18:18:04.1760] - DEBUG - [Save session: 4] Before waitUsingRecursiveRunLoop
+[2020-03-24 18:18:04.1830] - DEBUG - [Save session: 4] Completed container.writeChanges
+[2020-03-24 18:18:04.1830] - DEBUG - [Save session: 4] Completed waitUsingRecursiveRunLoop
+[2020-03-24 18:18:04.1850] - INFO - Marking changed: false
+[2020-03-24 18:18:04.1880] - DEBUG - [Save session: 4] Completed super.save
